@@ -1,9 +1,9 @@
 # Scientific Python Binder for NSLS-II
 
-This defines the container image run on https://jupyter.nsls2.bnl.gov.
+**This repository is no longer used.**
 
-Note that this only includes the Jupyter _server_ environment, which includes
-various Jupyter server extensions. It does not include the Jupyter _kernels_
-where the user code is executed. Those are managed separately in
-[nsls2-conda-envs/nsls2-collection-tiled](https://github.com/nsls2-conda-envs/nsls2-collection-tiled)
-and mounted into the container under `/nsls2/conda/`.
+The Jupyter kernel environments are managed in
+[nsls2-conda-envs](https://github.com/nsls2-conda-envs) (public).
+
+The Jupyter server environment is managed in the `jupyterhub` role in
+[NSLS2/ansible](https://github.com/NSLS2/ansible) (internal).
